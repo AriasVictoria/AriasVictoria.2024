@@ -8,9 +8,9 @@
 
         public Persona(string dni, string nombre, string apellido)
         {
-            dni = dni;
-            Nombre = nombre;
-            Apellido = apellido;
+            this.dni = dni;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
         }
     }
 }

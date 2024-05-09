@@ -6,11 +6,13 @@ namespace TrabajoPracticoApi.Controllers
     [ApiController]
     [Route("api/animal")]
     public class AnimalControllers : ControllerBase
+        
     {
         static List<Animal> ListaAnimales = new List<Animal>()
         {
-            new Animal("Milo", "Terranoba", 7, "macho", "Perro","Micaela colman"),
-            new Animal("Molly", "kho manee", 5, "Hembra", "gato ","Micaela colman"),
+
+            new Animal(1,"Milo", "Terranoba", 7, "macho", "Perro", new Persona("45353230", "Victoria", "Arias")),
+            new Animal(2,"Molly", "kho manee", 5, "Hembra", "gato ",new Persona("46695", "mica", "colman")),
         };
 
         [HttpGet]
@@ -20,40 +22,43 @@ namespace TrabajoPracticoApi.Controllers
         }
 
         [HttpPost]
-        public string ConsultarAnimal(Animal animal)
+        public int CrearAnimal(Animal animal)
         {
             ListaAnimales.Add(animal);
-            return animal.nombreAnimal;
+            return animal.id;
         }
-        [HttpPut("{Nombre}")]
-        public ActionResult ActualizarAnimal(string nombre, Animal animal)
-        {
-            var ActualizarAnimal = ListaAnimales.Find(x => x.nombreAnimal == nombre);
 
-            if (ActualizarAnimal == null)
+        [HttpPut("{Id}")]
+        public ActionResult ActualizarAnimal(int Id, Animal animal)
+        {
+            var AnimalActualizar = ListaAnimales.Find(x => x.id == Id);
+
+            if (AnimalActualizar == null)
             {
                 return NotFound();
             }
 
-            ActualizarAnimal.dueño = animal.dueño;
-            ActualizarAnimal.edad = animal.edad;
+            AnimalActualizar.id = animal.id;
+            AnimalActualizar.nombreAnimal = animal.nombreAnimal;
+            AnimalActualizar.dueño = animal.dueño;
 
             return Ok();
         }
-        [HttpGet("{nombre}")]
-        public ActionResult ConsultarAnimal(string nombre)
+        [HttpGet("{Id}")]
+        public ActionResult ConsultarAnimal(int Id)
         {
-            var animal = ListaAnimales.Find(x => x.nombreAnimal == nombre);
+            var animal = ListaAnimales.Find(x => x.id == Id);
             if (animal == null)
             {
                 return NotFound();
             }
             return Ok();
         }
-        [HttpDelete("{nombre}")]
-        public ActionResult BorrarAnimal(string nombre)
+
+        [HttpDelete("{Id}")]
+        public ActionResult BorrarAnimal(int Id)
         {
-            var animalBorrar = ListaAnimales.Find(x => x.nombreAnimal == nombre);
+            var animalBorrar = ListaAnimales.Find(x => x.id == Id);
             if (animalBorrar == null)
             {
                 return NotFound();

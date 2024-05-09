@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FQLQpo8Rbwrb5XhhqidXEy5j441PMLSJw5Y9Ogiu/eINxLbWfxgCUmB7tmTiZcg8xcweGehahWK6dI8YJzFwcA==",
+  "dgSpecHash": "En/Kgp8rvbjqvr3Dw0NA0mcZp8ZMqMzyjSET7EOSnndANdqE1KId0j56Dbc9kSXAcYihzRxX7b5/uC9+3gpuZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\2024AriasVictoria\\TrabajoPracticoApi\\TrabajoPracticoApi\\TrabajoPracticoApi.csproj",
+  "projectFilePath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\TrabajoPracticoApi\\TrabajoPracticoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vicky\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\Vicky\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
