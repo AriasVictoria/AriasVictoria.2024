@@ -1,0 +1,7 @@
+C:\Users\Vicky\source\repos\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.csproj.AssemblyReference.cache
+C:\Users\Vicky\source\repos\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vicky\source\repos\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.AssemblyInfoInputs.cache
+C:\Users\Vicky\source\repos\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.AssemblyInfo.cs
+C:\Users\Vicky\source\repos\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.csproj.CoreCompileInputs.cache
+C:\Users\Vicky\source\repos\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vicky\source\repos\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.MvcApplicationPartsAssemblyInfo.cache
