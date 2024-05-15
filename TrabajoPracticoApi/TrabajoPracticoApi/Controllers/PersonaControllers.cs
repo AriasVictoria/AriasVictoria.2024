@@ -3,6 +3,8 @@ using TrabajoPracticoApi.Model;
 
 namespace TrabajoPracticoApi.Controllers
 {
+    [ApiController]
+    [Route("api/persona")]
     public class PersonaControllers : ControllerBase
     {
         static List<Persona> ListPersona = new List<Persona>()
@@ -18,26 +20,27 @@ namespace TrabajoPracticoApi.Controllers
         }
 
         [HttpPost]
-        public string ConsultarPersona(Persona persona)
+        public string CrearPersona(Persona persona)
         {
             ListPersona.Add(persona);
             return persona.dni;
         }
-        [HttpPut("{DNI}")]
-        public ActionResult ActualizarPersona(string dni, Persona persona)
+        [HttpPut("{dni}")]
+        public ActionResult ActualizarPersona(Persona persona)
         {
-            var ActualizarPersona = ListPersona.Find(x => x.dni == dni);
+            var ActualizarPersona = ListPersona.Find(x => x.dni == persona.dni);
 
             if (ActualizarPersona == null)
             {
                 return NotFound();
             }
 
-            persona.dni = persona.dni;
+            ActualizarPersona.Nombre = persona.Nombre;
+            ActualizarPersona.Apellido = persona.Apellido;
 
             return Ok();
         }
-        [HttpGet("{DNI}")]
+        [HttpGet("{dni}")]
         public ActionResult ConsultarPersona(string dni)
         {
             var persona = ListPersona.Find(x => x.dni == dni);
@@ -45,17 +48,18 @@ namespace TrabajoPracticoApi.Controllers
             {
                 return NotFound();
             }
-            return Ok();
+            return Ok(persona);
         }
-        [HttpDelete("{DNI}")]
-        public ActionResult borrarPersona(string dni)
+        [HttpDelete("{dni}")]
+        public ActionResult borrarPersona(Persona persona)
         {
-            var BorrarPersona = ListPersona.Find(x => x.dni == dni);
+            var BorrarPersona = ListPersona.Find(x => x.dni == persona.dni);
             if (BorrarPersona == null)
             {
                 return NotFound();
             }
             ListPersona.Remove(BorrarPersona);
+           
             return Ok();
         }
 

@@ -32,9 +32,10 @@ C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\scopedcss\bundle\TrabajoPracticoApi.styles.css
-C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.csproj.CopyComplete
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.dll
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\refint\TrabajoPracticoApi.dll
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.pdb
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.genruntimeconfig.cache
 C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\ref\TrabajoPracticoApi.dll
+C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoPracticoApi.sourcelink.json
+C:\Users\Vicky\OneDrive\Documentos\GitHub\AriasVictoria.2024\TrabajoPracticoApi\TrabajoPracticoApi\obj\Debug\net7.0\TrabajoP.CCE227A4.Up2Date

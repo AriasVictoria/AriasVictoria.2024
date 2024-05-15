@@ -20,31 +20,27 @@ namespace TrabajoPracticoApi.Controllers
         {
             return ListaAnimales;
         }
-
         [HttpPost]
         public int CrearAnimal(Animal animal)
         {
             ListaAnimales.Add(animal);
             return animal.id;
         }
-
-        [HttpPut("{Id}")]
-        public ActionResult ActualizarAnimal(int Id, Animal animal)
+        [HttpPut("{id}")]
+        public ActionResult ActualizarAnimal(Animal animal)
         {
-            var AnimalActualizar = ListaAnimales.Find(x => x.id == Id);
+            var AnimalActualizar = ListaAnimales.Find(x => x.id == animal.id);
 
             if (AnimalActualizar == null)
             {
                 return NotFound();
             }
-
-            AnimalActualizar.id = animal.id;
             AnimalActualizar.nombreAnimal = animal.nombreAnimal;
             AnimalActualizar.dueño = animal.dueño;
 
             return Ok();
         }
-        [HttpGet("{Id}")]
+        [HttpGet("{id}")]
         public ActionResult ConsultarAnimal(int Id)
         {
             var animal = ListaAnimales.Find(x => x.id == Id);
@@ -52,13 +48,13 @@ namespace TrabajoPracticoApi.Controllers
             {
                 return NotFound();
             }
-            return Ok();
+            return Ok(animal);
         }
 
-        [HttpDelete("{Id}")]
-        public ActionResult BorrarAnimal(int Id)
+        [HttpDelete("{id}")]
+        public ActionResult BorrarAnimal(int id)
         {
-            var animalBorrar = ListaAnimales.Find(x => x.id == Id);
+            var animalBorrar = ListaAnimales.Find(x => x.id == id);
             if (animalBorrar == null)
             {
                 return NotFound();

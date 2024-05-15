@@ -13,15 +13,15 @@ namespace TrabajoPracticoApi.Model
         public Persona dueño { get; set; }
 
 
-        public Animal(int id,string Nombreanimal, string raza, int edad, string sexo, string tipo, Persona dueño)
+        public Animal(int id,string nombre, string raza, int edad, string sexo, string tipo, Persona dni)
         {
             this.id = id;
-            this.nombreAnimal = Nombreanimal;
+            this.nombreAnimal = nombre;
             this.raza = raza;
             this.edad = edad;
             this.sexo = sexo; 
             this.tipoAnimal = tipo;
-            this.dueño = dueño;
+            this.dueño = dni;
         }
     }
 }
