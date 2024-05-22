@@ -2,19 +2,19 @@
 {
     public class Historial
     {
-        public string Id_Historial { get; set; }
+        public int id{ get; set; }
         public Animal animal { get; set; }
         public DateTime fecha_consulta { get; set; }
         public string motivo_consulta { get; set; }
         public string tratamiento { get; set; }
         public string medicamento { get; set; }
 
-        public Historial(string Id_Historial,Animal animal,DateTime fecha, string consulta, string tratamiento, string medicamento )
+        public Historial(int id, Animal animal,DateTime fecha_consulta, string motivo_consulta, string tratamiento, string medicamento )
         {
-            this.Id_Historial = Id_Historial;
+            this.id = id;
             this.animal = animal;
             this.fecha_consulta = DateTime.Now;
-            this.motivo_consulta = consulta;
+            this.motivo_consulta = motivo_consulta;
             this.tratamiento = tratamiento;
             this.medicamento = medicamento;
         }

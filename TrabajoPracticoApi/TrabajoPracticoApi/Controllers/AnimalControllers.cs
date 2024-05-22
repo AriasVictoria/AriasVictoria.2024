@@ -1,18 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using TrabajoPracticoApi.DtoAnimal;
 using TrabajoPracticoApi.Model;
 
 namespace TrabajoPracticoApi.Controllers
 {
     [ApiController]
     [Route("api/animal")]
-    public class AnimalControllers : ControllerBase
-        
+    public class AnimalControllers : ControllerBase  
     {
         static List<Animal> ListaAnimales = new List<Animal>()
         {
 
-            new Animal(1,"Milo", "Terranoba", 7, "macho", "Perro", new Persona("45353230", "Victoria", "Arias")),
-            new Animal(2,"Molly", "kho manee", 5, "Hembra", "gato ",new Persona("46695", "mica", "colman")),
+            new Animal(1,"Milo", "Terranoba", 7, "macho", "Perro", "4553230"),
+            new Animal(2,"Molly", "kho manee", 5, "Hembra", "gato", "45342888"),
         };
 
         [HttpGet]
@@ -29,21 +31,22 @@ namespace TrabajoPracticoApi.Controllers
         [HttpPut("{id}")]
         public ActionResult ActualizarAnimal(Animal animal)
         {
-            var AnimalActualizar = ListaAnimales.Find(x => x.id == animal.id);
+            var Actuazaliranimal = ListaAnimales.Find(x => x.id == animal.id);
 
-            if (AnimalActualizar == null)
+            if (Actuazaliranimal == null)
             {
                 return NotFound();
             }
-            AnimalActualizar.nombreAnimal = animal.nombreAnimal;
-            AnimalActualizar.dueño = animal.dueño;
+            Actuazaliranimal.nombreAnimal = animal.nombreAnimal;
+            Actuazaliranimal.edad = animal.edad;
+            Actuazaliranimal.dueño = animal.dueño;
 
             return Ok();
         }
         [HttpGet("{id}")]
-        public ActionResult ConsultarAnimal(int Id)
+        public ActionResult ConsultarAnimal(int id)
         {
-            var animal = ListaAnimales.Find(x => x.id == Id);
+            var animal = ListaAnimales.Find(x => x.id == id);
             if (animal == null)
             {
                 return NotFound();

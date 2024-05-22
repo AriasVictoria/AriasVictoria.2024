@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrabajoPracticoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6008ea3bf882213d3c57765dcca631d148b4b2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23a231b14f5f1c52a1d3586fc7d8a0b94695ce86")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrabajoPracticoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrabajoPracticoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,34 +1,38 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TrabajoPracticoApi.DtoAnimal;
 using TrabajoPracticoApi.Model;
 
 namespace TrabajoPracticoApi.Controllers
 {
     [ApiController]
     [Route("api/historial")]
+
     public class HistorialControllers : ControllerBase
     {
-        static List<Historial> ListHistoria = new List<Historial>()
+        static List<Historial> ListHistorial = new List<Historial>()
         {
-            new Historial("452236",(new Animal(1,"Milo", "Terranoba", 7, "macho", "Perro",new Persona("45353230", "Victoria", "Arias"))), DateTime.Now,"vacunacion", "colocacion de infectable", "vacuna contra ravia"),
-            new Historial("458695",(new Animal(2,"Molly", "kho manee", 5, "Hembra", "gato ",new Persona("46695", "mica", "colman"))), DateTime.Now,"factura", "operacioon", "analgesico"),
+            new Historial(1,(new Animal(1,"Milo", "Terranoba", 7, "macho", "Perro","45353230")),
+                DateTime.Now,"vacunacion", "colocacion de infectable", "vacuna contra ravia"),
+            new Historial(2,(new Animal(2,"Molly", "kho manee", 5, "Hembra", "gato ","45342888")),
+                DateTime.Now,"factura", "operacioon", "analgesico"),
         };
 
         [HttpGet]
         public List<Historial> ConsultarHistorial()
         {
-            return ListHistoria;
+            return ListHistorial;
         }
 
         [HttpPost]
-        public string CrearHistorial(Historial historial)
+        public int CrearHistorial(Historial historial)
         {
-            ListHistoria.Add(historial);
-            return historial.Id_Historial;
+            ListHistorial.Add(historial);
+            return historial.id;
         }
-        [HttpPut("{Id_historial}")]
+        [HttpPut("{id}")]
         public ActionResult ActualizarHistorial(Historial historial)
         {
-            var ActualizarHistorial = ListHistoria.Find(x => x.Id_Historial == historial.Id_Historial );
+            var ActualizarHistorial = ListHistorial.Find(x => x.id == historial.id );
 
             if (ActualizarHistorial == null)
             {
@@ -41,27 +45,27 @@ namespace TrabajoPracticoApi.Controllers
 
             return Ok();
         }
-        [HttpGet("{Id_historial}")]
-        public ActionResult ConsultarHistorial(string id)
+        [HttpGet("{id}")]
+        public ActionResult ConsultarHistorial(int id)
         {
-            var historial = ListHistoria.Find(x => x.Id_Historial == id);
+            var historial = ListHistorial.Find(x => x.id == id);
             if (historial == null)
             {
                 return NotFound();
             }
             return Ok(historial);
         }
-        [HttpDelete("{Id_historial}")]
-        public ActionResult borrarHistorial(Historial historial)
+        [HttpDelete("{id}")]
+        public ActionResult borrarHistorial(int id)
         {
-            var BorrarHistorial = ListHistoria.Find(x => x.Id_Historial == historial.Id_Historial);
-            if (BorrarHistorial == null)
+            var historialBorrar = ListHistorial.Find(x => x.id == id);
+            if (historialBorrar == null)
             {
                 return NotFound();
             }
-            ListHistoria.Remove(BorrarHistorial);
+            ListHistorial.Remove(historialBorrar);
+
             return Ok();
         }
-
     }
 }

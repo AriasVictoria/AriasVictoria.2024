@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDA04446-E757-46C3-9BCD-378D70B83EC9}|TrabajoPracticoApi\\TrabajoPracticoApi.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\ariasvictoria.2024\\trabajopracticoapi\\trabajopracticoapi\\controllers\\animalcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDA04446-E757-46C3-9BCD-378D70B83EC9}|TrabajoPracticoApi\\TrabajoPracticoApi.csproj|solutionrelative:trabajopracticoapi\\controllers\\animalcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20F24C27-4A36-4701-8C50-ED70CE3EDA3B}|VeterinariaApp\\VeterinariaApp.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\ariasvictoria.2024\\trabajopracticoapi\\veterinariaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F24C27-4A36-4701-8C50-ED70CE3EDA3B}|VeterinariaApp\\VeterinariaApp.csproj|solutionrelative:veterinariaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDA04446-E757-46C3-9BCD-378D70B83EC9}|TrabajoPracticoApi\\TrabajoPracticoApi.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\ariasvictoria.2024\\trabajopracticoapi\\trabajopracticoapi\\controllers\\personacontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDA04446-E757-46C3-9BCD-378D70B83EC9}|TrabajoPracticoApi\\TrabajoPracticoApi.csproj|solutionrelative:trabajopracticoapi\\controllers\\personacontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA04446-E757-46C3-9BCD-378D70B83EC9}|TrabajoPracticoApi\\TrabajoPracticoApi.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\ariasvictoria.2024\\trabajopracticoapi\\trabajopracticoapi\\controllers\\historialcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDA04446-E757-46C3-9BCD-378D70B83EC9}|TrabajoPracticoApi\\TrabajoPracticoApi.csproj|solutionrelative:trabajopracticoapi\\controllers\\historialcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20F24C27-4A36-4701-8C50-ED70CE3EDA3B}|VeterinariaApp\\VeterinariaApp.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\ariasvictoria.2024\\trabajopracticoapi\\veterinariaapp\\veterinaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F24C27-4A36-4701-8C50-ED70CE3EDA3B}|VeterinariaApp\\VeterinariaApp.csproj|solutionrelative:veterinariaapp\\veterinaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AnimalControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\TrabajoPracticoApi\\Controllers\\AnimalControllers.cs",
-              "RelativeDocumentMoniker": "TrabajoPracticoApi\\Controllers\\AnimalControllers.cs",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\TrabajoPracticoApi\\Controllers\\AnimalControllers.cs",
-              "RelativeToolTip": "TrabajoPracticoApi\\Controllers\\AnimalControllers.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwDgAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T22:06:32.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PersonaControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\TrabajoPracticoApi\\Controllers\\PersonaControllers.cs",
-              "RelativeDocumentMoniker": "TrabajoPracticoApi\\Controllers\\PersonaControllers.cs",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\TrabajoPracticoApi\\Controllers\\PersonaControllers.cs",
-              "RelativeToolTip": "TrabajoPracticoApi\\Controllers\\PersonaControllers.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowBoAAAAJAAAA",
+              "Title": "Veterinaria.cs",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\VeterinariaApp\\Veterinaria.cs",
+              "RelativeDocumentMoniker": "VeterinariaApp\\Veterinaria.cs",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\VeterinariaApp\\Veterinaria.cs",
+              "RelativeToolTip": "VeterinariaApp\\Veterinaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T21:53:52.055Z",
+              "WhenOpened": "2024-05-22T23:19:01.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HistorialControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\TrabajoPracticoApi\\Controllers\\HistorialControllers.cs",
-              "RelativeDocumentMoniker": "TrabajoPracticoApi\\Controllers\\HistorialControllers.cs",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\TrabajoPracticoApi\\Controllers\\HistorialControllers.cs",
-              "RelativeToolTip": "TrabajoPracticoApi\\Controllers\\HistorialControllers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\VeterinariaApp\\Program.cs",
+              "RelativeDocumentMoniker": "VeterinariaApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\AriasVictoria.2024\\TrabajoPracticoApi\\VeterinariaApp\\Program.cs",
+              "RelativeToolTip": "VeterinariaApp\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T20:08:18.217Z",
+              "WhenOpened": "2024-05-22T23:18:35.796Z",
               "EditorCaption": ""
             }
           ]

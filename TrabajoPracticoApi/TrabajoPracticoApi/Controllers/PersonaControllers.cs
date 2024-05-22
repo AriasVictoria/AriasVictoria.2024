@@ -9,8 +9,8 @@ namespace TrabajoPracticoApi.Controllers
     {
         static List<Persona> ListPersona = new List<Persona>()
         {
-            new Persona("45353230", "Victoria", "Arias"),
-            new Persona("45342888", "Maria Lara", "Morelli"),
+            new Persona("45353230", "Victoria", "Arias", "3493525636"),
+            new Persona("45342888", "Maria Lara", "Morelli", "3493596230"),
         };
 
         [HttpGet]
