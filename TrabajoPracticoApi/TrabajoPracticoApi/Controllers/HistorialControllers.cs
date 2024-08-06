@@ -14,7 +14,7 @@ namespace TrabajoPracticoApi.Controllers
             new Historial(1,(new Animal(1,"Milo", "Terranoba", 7, "macho", "Perro","45353230")),
                 DateTime.Now,"vacunacion", "colocacion de infectable", "vacuna contra ravia"),
             new Historial(2,(new Animal(2,"Molly", "kho manee", 5, "Hembra", "gato ","45342888")),
-                DateTime.Now,"factura", "operacioon", "analgesico"),
+                DateTime.Now,"fractura", "operacioon", "analgesico"),
         };
 
         [HttpGet]
